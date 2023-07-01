@@ -19,7 +19,12 @@ class TestFan:
         print("Color:", fan_1.get_color())
         print("On:", fan_1.is_on())
 
-# print fan2
+        # print fan2
+        print("Fan 2:")
+        print("Speed:", fan_2.get_speed())
+        print("Radius:", fan_2.get_radius())
+        print("Color:", fan_2.get_color())
+        print("On:", fan_2.is_on())
 
 # instance of TestFan and run the test
 test = TestFan()
