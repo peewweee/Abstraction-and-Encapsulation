@@ -4,6 +4,8 @@
 # PSEUDOCODE
 # import class fan
 from fan_class import Fan
+import gui_Fan
+gui_Fan.GUI()
 
 # create class TestFan
 class TestFan:
@@ -13,15 +15,15 @@ class TestFan:
         fan_2 = Fan(Fan.MEDIUM, 5, 'blue', False)
 
         # print fan1
-        print("Fan 1:")
-        print("Speed:", fan_1.get_speed())
+        print("\033[0;36m Fan 1:")
+        print("\033[0;35mSpeed:", fan_1.get_speed())
         print("Radius:", fan_1.get_radius())
         print("Color:", fan_1.get_color())
         print("On:", fan_1.is_on())
 
         # print fan2
-        print("Fan 2:")
-        print("Speed:", fan_2.get_speed())
+        print("\n\033[0;36m Fan 2:")
+        print("\033[0;35mSpeed:", fan_2.get_speed())
         print("Radius:", fan_2.get_radius())
         print("Color:", fan_2.get_color())
         print("On:", fan_2.is_on())
