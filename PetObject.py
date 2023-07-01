@@ -17,4 +17,8 @@ pet.set_animal_type(animal_type)
 pet.set_age(age)
 
 # retrieve name, type, and age
+pet_name = pet.get_name()
+pet_animal_type = pet.get_animal_type()
+pet_age = pet.get_age()
+
 # display data
