@@ -3,8 +3,14 @@
 
 # PSEUDOCODE
 # import class fan
+from fan_class import Fan
+
 # create class TestFan
-# two Fan objects
+class TestFan:
+    def run_test(self):
+        # two Fan objects
+        fan_1 = Fan(Fan.FAST, 10, 'yellow', True)
+        fan_2 = Fan(Fan.MEDIUM, 5, 'blue', False)
 # print fan1
 # print fan2
 
