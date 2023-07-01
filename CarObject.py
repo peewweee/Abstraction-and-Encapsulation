@@ -11,3 +11,6 @@ for _ in range(5):
     car_sample.accelerate()
     print("Current speed:", car_sample.get_speed())
 # call brake method 5 times
+for _ in range(5):
+    car_sample.brake()
+    print("Current speed:", car_sample.get_speed())
