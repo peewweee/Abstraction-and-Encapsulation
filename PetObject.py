@@ -22,3 +22,6 @@ pet_animal_type = pet.get_animal_type()
 pet_age = pet.get_age()
 
 # display data
+print("Name:", pet_name)
+print("Animal Type:", pet_animal_type)
+print("Age:", pet_age)
