@@ -1,6 +1,9 @@
 # Main program to display current speed of car
 # Phoebe Rhone L. Gangoso | BSCpE 1-4
 
+import gui_Car
+gui_Car.GUI()
+
 # PSEUDOCODE
 # import car class
 from car_class import Car
@@ -12,13 +15,13 @@ car_sample = Car(2023, "Toyota")
 car_sample.show()
 
 # call accelerate method 5 times
-print("\n Accelerating")
+print("\n\033[0;32m Accelerating")
 for _ in range(5):
     car_sample.accelerate()
-    print("Current speed:", car_sample.get_speed())
+    print("\033[0;37mCurrent speed:", car_sample.get_speed())
 
 # call brake method 5 times
-print("\n Braking")
+print("\n\033[0;31m Braking")
 for _ in range(5):
     car_sample.brake()
-    print("Current speed:", car_sample.get_speed())
+    print("\033[0;37mCurrent speed:", car_sample.get_speed())

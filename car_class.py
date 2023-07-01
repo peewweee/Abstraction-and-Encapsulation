@@ -24,5 +24,5 @@ class Car:
 
     # print make and year model
     def show(self):
-        print("Your Car:", self.__make)
-        print("Year Manufactured:", self.__year_model)
+        print("\N{automobile} Your Car:", self.__make)
+        print("\N{wrench} Year Manufactured:", self.__year_model)
