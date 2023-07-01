@@ -12,5 +12,9 @@ animal_type = input("Enter your pet's animal type: ")
 age = input("Enter your pet's age: ")
 
 # set as object attributes
+pet.set_name(name)
+pet.set_animal_type(animal_type)
+pet.set_age(age)
+
 # retrieve name, type, and age
 # display data
