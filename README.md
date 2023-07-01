@@ -3,19 +3,19 @@
 *These programs show abstraction and encapsulation in object oriented programming.*
 
 **A.) Fan Class**
->TestFan.py - This is the main program file.
->fan_class.py - This file contains the class and methods
->gui_Fan.py - This is where the GUI codes are programmed.
+>- TestFan.py - This is the main program file.
+>- fan_class.py - This file contains the class and methods
+>- gui_Fan.py - This is where the GUI codes are programmed.
 
 **B.) Car Class**
->CarObject.py - This is the main program file and where the object was programmed.
->car_class.py - This file contains the class and methods
->gui_Car.py - This is where the GUI codes are programmed.
+>- CarObject.py - This is the main program file and where the object was programmed.
+>- car_class.py - This file contains the class and methods
+>- gui_Car.py - This is where the GUI codes are programmed.
 
 **C.) Pet Class**
->PetObject.py - This is the main program file and where the object was programmed.
->pet_class.py - This file contains the class and methods
->gui_Pet.py - This is where the GUI codes are programmed.
+>- PetObject.py - This is the main program file and where the object was programmed.
+>- pet_class.py - This file contains the class and methods
+>- gui_Pet.py - This is where the GUI codes are programmed.
 
 **Try to run and use the program**
 >1. With your IDE, run the main program (TestFan.py, CarObject.py, or PetObject.py).
