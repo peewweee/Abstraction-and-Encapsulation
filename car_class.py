@@ -21,3 +21,8 @@ class Car:
     # get_speed method
     def get_speed(self):
         return self.__speed
+
+    # print make and year model
+    def show(self):
+        print("Your Car:", self.__make)
+        print("Year Manufactured:", self.__year_model)
