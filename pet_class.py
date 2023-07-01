@@ -3,7 +3,12 @@
 
 # PSEUDOCODE
 # class pet
-# initialize attributes
+class Pet:
+    def __init__(self):
+        # initialize attributes
+        self.__name = ""
+        self.__animal_type = ""
+        self.__age = 0
 
 # set_name method
 # set_animal_type method
